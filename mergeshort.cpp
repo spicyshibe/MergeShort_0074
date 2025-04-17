@@ -36,6 +36,10 @@ void mergeSort(int low, int high)
 
         }
         k++;
+
+    }
+    while (j <= high)
+    {
         
     }
 
