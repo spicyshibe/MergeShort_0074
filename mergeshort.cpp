@@ -40,7 +40,9 @@ void mergeSort(int low, int high)
     }
     while (j <= high)
     {
-        
+        B[k] = arr[j];
+        j++;
+        k++;
     }
 
 }
