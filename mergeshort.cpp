@@ -50,7 +50,12 @@ void mergeSort(int low, int high)
         B[k] = arr[i];
         i++;
         k++;
-        
+
+    }
+
+    for(int x = low; x <= high; x++)
+    {
+        arr[x] = B[x];
     }
 
 }
